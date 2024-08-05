@@ -3,7 +3,7 @@
 # After each creation the used file name should be deleted from the list to avoid duplication
 # Also, the file names should be chosen randomly
 
-import random # imported random for random number generation
+import random  # imported random for random number generation
 
 fileNames = ["file1.txt", "file2.txt", "file3.txt", "file4.txt", "file5.txt", "file6.txt"]
 # create list with file names
@@ -24,8 +24,8 @@ while i != -1:
     print(fileNames)
     # print which file names are remaining inside list
     i = i - 1
-    # reduce the maximum index number since list has less elements
+    # reduce the maximum index number since list has fewer elements
 
 print("All files have been created")
-# print a message to show all files have been created
 
+# print a message to show all files have been created

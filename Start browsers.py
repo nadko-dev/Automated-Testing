@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-# Microsoft Edge browser
+# Microsoft Edge browser invoke
 driver1 = webdriver.Edge()
 driver1.get("https://nadirdev.com")
 driver1.maximize_window()
