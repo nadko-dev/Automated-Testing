@@ -62,7 +62,7 @@ driverChrome.find_element(By.XPATH, "//span[@class='carousel-control-next-icon']
 driverChrome.find_element(By.XPATH, "//span[@class='carousel-control-next-icon']").click()
 driverChrome.find_element(By.XPATH, "//span[@class='carousel-control-next-icon']").click()
 
-# Testing button
+# Testing Dogiland button
 element = driverChrome.find_element(By.XPATH, "//div/a/h5")
 driverChrome.execute_script("arguments[0].scrollIntoView();", element)
 element.click()
